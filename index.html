@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScriptによる天体シミュレーション</title>
+
+  <script type="text/javascript" src="planet.js"></script>
+
+  <script type="text/css">
+    canvas { border: 1px solid #999; }
+  </script>
+
+</head>
+
+<form name="input_form">
+離心率 : <input type="text" name="e" value=""><br>
+<input type="button" value="start!" onclick="simulation_start();"><br>
+</form>
+
+<canvas id="planet" width="1000" height="1000"></canvas>
+
+</body>
+
+</html>
